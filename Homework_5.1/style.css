@@ -1,0 +1,56 @@
+#img{
+	background-image:url("http://swiftsrbija.rs/wp-content/uploads/2016/03/20160302_180136.jpg");
+	background-size:cover;
+	background-position:center;
+	height:350px;
+}
+#text{
+	width:700px;
+	border:solid;
+	padding:30px;
+	position:relative;
+	top:-60px;
+	left:60px;
+	background-color:#fff;
+}
+#post{
+	width:900px;
+	margin:auto;
+	margin-top:50px;
+}
+
+@media screen and (min-width:478px) and (max-width:898px){
+	#post{
+		width:90%;
+	}
+	#img{
+		width:100%;
+	}
+	#text{
+		width:100%;
+		position:static;
+		border:none;
+		padding:0;
+	}
+}
+
+@media screen and (max-width:480px){
+	#post{
+		width:80%;
+	}
+	#img{
+		width:100%;
+	}
+	#text{
+		width:100%;
+		position:static;
+		padding:0;
+		border:none;
+		
+	}
+}
+
+
+
+
+
